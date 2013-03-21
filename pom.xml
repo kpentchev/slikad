@@ -21,4 +21,19 @@
   		<version>2.4</version>
   	</dependency>
   </dependencies>
+  
+  <build> 
+    <plugins> 
+      <plugin> 
+        <artifactId>maven-compiler-plugin</artifactId> 
+        <configuration> 
+          <compilerVersion>1.6</compilerVersion>
+          <encoding>UTF-8</encoding>
+          <fork>true</fork> 
+          <source>1.6</source> 
+          <target>1.6</target> 
+        </configuration> 
+      </plugin> 
+    </plugins> 
+  </build> 
 </project>
